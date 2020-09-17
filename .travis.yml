@@ -1,5 +1,11 @@
 language: java
 
+dist: xenial
+
+services:
+   - xvbf
+   - docker
+
 jdk: openjdk8
 
 addons:
